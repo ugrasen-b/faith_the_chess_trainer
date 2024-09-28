@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Sep 28 14:19:53 2024
+
+@author: Bob
+"""
+
+# Ignore the Spyder project folder
+.spyproject/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files (optional)
+.DS_Store
+Thumbs.db
