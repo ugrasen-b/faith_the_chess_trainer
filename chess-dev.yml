@@ -1,0 +1,21 @@
+name: chess-dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - requests          # For making HTTP requests to the Chess.com API
+  - pandas            # For data manipulation and analysis
+  - jupyterlab        # For running Jupyter notebooks (optional)
+  - numpy             # For numerical computations (optional but useful)
+  - matplotlib        # For plotting and visualizing data (optional)
+  - tqdm              # For progress bars (optional for large data retrievals)
+  - ipykernel         # For adding the environment to Jupyter
+  - pytest            # For testing your code (optional)
+  - black             # Code formatter (optional, for clean code)
+
+# Optional: pip dependencies
+  - pip
+  - pip:
+    - python-chess     # A library for working with chess games and board positions
+    - stockfish        # Chess engine for analysis (optional)
